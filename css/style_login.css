@@ -1,0 +1,51 @@
+header {
+    background-color: whitesmoke;
+    font-size: 30px;
+    padding: -10px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.btn {
+    width: 350px;
+    height: 40px;
+}
+.container-fluid {
+    background-color: whitesmoke;
+    margin-top: -30px;
+}
+
+.nav-link {
+    font-size: 22px;
+}
+
+.navbar {
+    padding-left: 1%;
+}
+
+.inputbox {
+border-radius: 5px;
+border:1px solid #000000;
+padding:1px;
+width:350px; 
+height: 40px;         
+border-color:#948f8f5c;
+transition: all 0.5s;
+}
+
+#copyright {
+    text-align: center;
+    font-size: 13px;
+    color: rgb(202, 202, 202);
+    padding: 1%;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center
+
+}
