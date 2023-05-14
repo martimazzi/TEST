@@ -1,0 +1,36 @@
+header {
+    background-color: whitesmoke;
+    font-size: 30%;
+    padding-top: 3%;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.btn {
+    margin-left: 93.5%;
+    margin-top: 1%;
+}
+
+.container-fluid {
+    background-color: whitesmoke;
+    margin-top: -2%;
+}
+
+.nav-link {
+    font-size: 150%;
+}
+
+#copyright {
+    text-align: center;
+    font-size: 60%;
+    color: rgb(202, 202, 202);
+    padding: 1%;
+}
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center
+}

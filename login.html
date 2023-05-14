@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z06VE9G1G6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z06VE9G1G6');
+</script>
     <title>Login</title>
     <link rel="icon" href="images/logo.svg">
     <meta charset="utf-8">
@@ -10,9 +19,6 @@
   </head>
   <body>
     <header>
-      <form action="login.html">
-        <button type="summit" class="btn btn-light" style="background-color: whitesmoke; border-color: whitesmoke;"></button>
-      </form>
       <!--LOGO+TITOLO-->
       <div class="container-fluid">
           <h1 class="d-inline-block align-text-top" href="index.html" style="align-self:flex-end; color: black">Sound<img src="images/logo.svg" alt="logo" width="50" height="50" class="d-inline-block align-text-top">Alive</h1>
@@ -20,8 +26,9 @@
 <!--NAVBAR-->
 <nav class="navbar navbar-expand-lg" style="background-color: rgb(184, 50, 101);">
   <a class="nav-link" style="color: black;" href="index.html">Home</a>
-  <a class="nav-link" style="color: black;" href="forum.html">Forum</a>
   <a class="nav-link" style="color: black;" href="eventi.html">Eventi</a>
+  <a class="nav-link" style="color: black;" href="forum.html">Forum</a>
+  <a class="nav-link action" style="color: whitesmoke;" href="login.html">Login</a>
   <a class="nav-link" style="color: black;" href="documentazione.html">Documentazione</a>
 </nav>
 </div>
